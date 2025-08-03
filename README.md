@@ -1,4 +1,4 @@
-# Protein Structure Predictor
+# ESMFold Predictor
 A web application for predicting protein 3D structures from amino acid sequences using Meta AI's ESMFold algorithm.
 
 ![Protein Structure Predictor](https://img.shields.io/badge/Python-3.8+-blue.svg)
@@ -48,12 +48,12 @@ MGSSHHHHHHSSGLVPRGSHMRGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQS
 
 ## Project Structure
 ```
-├── app.py                 # Main Flask application
+├── app.py                # Main Flask application
 ├── config.py             # Configuration
 ├── backend/              # Backend logic
 ├── static/               # CSS, JS, downloads
 ├── templates/            # HTML templates
-└── tests/               # Unit tests
+└── tests/                # Unit tests
 ```
 
 ## Requirements
@@ -64,4 +64,5 @@ MGSSHHHHHHSSGLVPRGSHMRGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQS
 MIT License
 
 ## About ESMFold
-ESMFold is Meta AI's protein structure prediction model, providing fast and accurate predictions without requiring multiple sequence alignments.
+ESMFold is Meta AI's protein structure prediction model, providing fast and accurate predictions without the need for multiple sequence alignments.
+
